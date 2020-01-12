@@ -3,7 +3,6 @@ sudo: required
 language: "minimal"
 services:
   - docker
-version: ~> 1.0
 
 jobs:
   include:
