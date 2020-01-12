@@ -14,11 +14,11 @@ jobs:
     - name: "tests"
         script:
           - docker run -v `pwd`:`pwd` -w `pwd` -t rusdevops/bootstrap-cpp scripts/tests.sh
-          - name: "coverage"
-            script:
-              - docker run -v `pwd`:`pwd` -w `pwd` -t rusdevops/bootstrap-cpp scripts/coverage.sh
+    - name: "coverage"
+        script:
+          - docker run -v `pwd`:`pwd` -w `pwd` -t rusdevops/bootstrap-cpp scripts/coverage.sh
     - name: "quality"
-      script:
+        script:
         - docker run -t -v $(pwd):/var/builder/ -w /var/builder --entrypoint ./scripts/duplication.sh $DOCKER_IMAGE
     - name: "tests"
         script:
