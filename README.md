@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/DenisSlack/lab-05-stack.svg?branch=master)](https://travis-ci.org/DenisSlack/lab-05-stack)
+
 
 # Лабораторная работа №5
 
