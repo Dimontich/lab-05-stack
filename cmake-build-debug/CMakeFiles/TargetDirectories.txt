@@ -1,5 +1,0 @@
-/home/denis/CLionProjects/lab05stack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/denis/CLionProjects/lab05stack/cmake-build-debug/CMakeFiles/test.dir
-/home/denis/CLionProjects/lab05stack/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/denis/CLionProjects/lab05stack/cmake-build-debug/CMakeFiles/template.dir
-/home/denis/CLionProjects/lab05stack/cmake-build-debug/CMakeFiles/tests.dir
