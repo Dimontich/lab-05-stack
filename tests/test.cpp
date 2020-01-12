@@ -2,8 +2,8 @@
 
 #include <gtest/gtest.h>
 
-#include "stack1.h"
-#include "stack2.h"
+#include "../include/stack1.h"
+#include "../include/stack2.h"
 
 class tests {
  public:
