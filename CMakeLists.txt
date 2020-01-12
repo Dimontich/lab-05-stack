@@ -44,6 +44,7 @@ target_include_directories(template
 )
 target_include_directories(tests 
   PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
+        ${GTEST_ROOT}/include
 )
 # TODO: change template word to project name and delete this comment
 #target_link_libraries(tests GTest::main template)
