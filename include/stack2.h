@@ -17,7 +17,7 @@ class StackTwo {
   StackTwo(const StackTwo&) = delete;  //
   StackTwo(StackTwo&&) = default;      //
   auto operator=(StackTwo&&) noexcept
-  -> class StackTwo& = default;  // перемещаемый при присваивании
+      -> class StackTwo& = default;  // перемещаемый при присваивании
 
   template <typename... Args>
   void push_emplace(

@@ -16,7 +16,7 @@ class stack {
   stack(const stack&) = delete;  // некопируемый шаблон класса
   stack(stack&& stack) = default;  // is_move_constructible
   auto operator=(stack&& stack) noexcept
-  -> class stack& = default;  // is_move_assignable
+      -> class stack& = default;  // is_move_assignable
 
   void push(T&& value);
   void push(const T& value);
