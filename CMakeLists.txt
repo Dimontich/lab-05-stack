@@ -46,7 +46,17 @@ target_include_directories(tests
   PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 # TODO: change template word to project name and delete this comment
-target_link_libraries(tests GTest::main template)
+#target_link_libraries(tests GTest::main template)
+target_link_libraries(tests
+        pthread
+        ${PROJECT_NAME}
+        #            ${GTEST_LOCAL_LIB}
+        #            ${GTEST_LOCAL_LIB_MAIN}
+        GTest::gtest
+        GTest::main
+        )
+
+
 
 enable_testing()
 add_test(NAME unit_tests COMMAND tests) 
