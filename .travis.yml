@@ -1,6 +1,7 @@
 os: linux
 sudo: required
-language: "minimal"
+language:
+  "minimal"
 services:
   - docker
 
