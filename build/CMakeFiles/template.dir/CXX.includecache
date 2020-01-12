@@ -6,17 +6,5 @@
 
 #IncludeRegexTransform: 
 
-../include/stack1.h
-
-../include/stack2.h
-utility
--
-
 /home/denis/CLionProjects/lab05stack/sources/source.cpp
-iostream
--
-stack1.h
-/home/denis/CLionProjects/lab05stack/sources/stack1.h
-stack2.h
-/home/denis/CLionProjects/lab05stack/sources/stack2.h
 
