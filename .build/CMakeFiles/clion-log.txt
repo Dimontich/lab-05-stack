@@ -1,9 +1,0 @@
-/usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/denis/CLionProjects/lab05stack
--- [hunter] Calculating Toolchain-SHA1
--- [hunter] Calculating Config-SHA1
--- [hunter] HUNTER_ROOT: /home/denis/.hunter
--- [hunter] [ Hunter-ID: 9a3594a | Toolchain-ID: 511a137 | Config-ID: 48401e9 ]
--- [hunter] GTEST_ROOT: /home/denis/.hunter/_Base/9a3594a/511a137/48401e9/Install (ver.: 1.8.0-hunter-p11)
--- Configuring done
--- Generating done
--- Build files have been written to: /home/denis/CLionProjects/lab05stack/.build
