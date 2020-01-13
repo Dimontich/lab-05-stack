@@ -1,5 +1,0 @@
-/Users/dmitrij/CLionProjects/lab-05-stack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/dmitrij/CLionProjects/lab-05-stack/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/dmitrij/CLionProjects/lab-05-stack/cmake-build-debug/CMakeFiles/test.dir
-/Users/dmitrij/CLionProjects/lab-05-stack/cmake-build-debug/CMakeFiles/tests.dir
-/Users/dmitrij/CLionProjects/lab-05-stack/cmake-build-debug/CMakeFiles/template.dir
